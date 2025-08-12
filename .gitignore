@@ -1,2 +1,65 @@
-*.iml
+# ==========================
+# IntelliJ IDEA / PhpStorm
+# ==========================
 .idea/
+*.iml
+out/
+atlassian-ide-plugin.xml
+
+# ==========================
+# PHP / Composer
+# ==========================
+/vendor/
+/composer.lock
+
+# ==========================
+# Node.js (если вдруг юзаешь для фронта)
+# ==========================
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# ==========================
+# System files
+# ==========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ==========================
+# Logs / Cache
+# ==========================
+*.log
+*.tmp
+*.temp
+.cache/
+.cache-loader/
+.cache-watcher/
+tmp/
+temp/
+
+# ==========================
+# PHPUnit
+# ==========================
+.phpunit.result.cache
+/phpunit.xml
+/phpunit.xml.dist
+
+# ==========================
+# Uploaded files (media)
+# ==========================
+/uploads/
+/storage/
+/public/storage/
+
+# ==========================
+# Build artifacts
+# ==========================
+build/
+dist/
+coverage/
