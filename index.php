@@ -3,4 +3,5 @@
 $first = 5;
 //check
 //comment
+//выаываывавыа
 ?>
