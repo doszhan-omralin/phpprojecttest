@@ -2,6 +2,7 @@
 # IntelliJ IDEA / PhpStorm
 # ==========================
 .idea/
+.env
 *.iml
 out/
 atlassian-ide-plugin.xml
